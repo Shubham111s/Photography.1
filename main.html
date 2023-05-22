@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+        
+     
+     font-family: 'Roboto Mono', monospace;
+     /* height: 1px; */
+     /* width: 5522px; */
+
+        margin: 4px;
+        padding: 1px;
+        background: url('./img/night-g95db5aa63_1280.jpg')
+        
+        
+    }
+    .left{
+        display:inline-block;
+        top: 3px;
+ /* border: 3px solid rgb(244, 238, 238); */
+ color: white;
+ position: absolute;
+ left: 34px;
+ font-size: 12px;
+ /* height: 12px; */
+ 
+    }
+    .mid{
+        display: block ;
+        margin: 28px;
+        /* top: 0px; */
+        width: 40%;
+        margin:12px auto ;
+        /* border: 3px solid red; */
+        color: white;
+    }
+    .right{
+        position: absolute;
+        right: 33px;
+        top: 17px;
+        display: inline-block;
+        /* border: 3px solid red; */
+        color: white;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 32px;
+    }
+    .navbar li a{
+        color: white;
+        padding: 23px  3px;
+        padding: 23px  3px;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 34px;
+        /* background-color: black; */
+    }
+    .navbar li a:hover{
+       text-decoration:none;
+       color: rgb(95, 195, 234);
+       /* cursor:; */
+
+    }
+    .left img {
+        width: 80px ;
+        height: 34px 34px;
+        /* filter: invert(100%); */
+        /* display: inline-block; */
+        cursor: pointer;
+        background-color: rgb(192, 214, 197);
+     }
+    .left div{
+        text-align: center;
+    }
+    .btn{
+        margin: 0px -2x;
+        color: white;
+        background-color: black;
+        padding: 3px 4px;
+        border: 2px solid rgb(42, 38, 38);
+        border-radius: 23px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color:rgb(81, 74, 74) ;
+    }
+.container{
+   
+    border: 2px solid white;
+    width: 18%;
+    margin: 69px 0px;
+    padding: 30px 80px;
+    border-radius: 89px;
+    color: rgb(102, 243, 20);}
+.container h3{
+    color: rgb(250, 242, 243);
+}
+.form-group input{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    width: 310px;
+    margin: 15px auto;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 24px;
+    text-align: center;
+    display: block;
+    padding: 2px;
+}
+.form-group input:hover{
+    background-color: rgb(240, 228, 228);
+}
+.container button {
+    display: block;
+    width: 2cm;
+    margin: 20px auto;
+    padding: 12px;
+}
+.container button:hover{
+    background-color: rgb(95, 160, 240);
+}
+.left{
+    height: 25px;
+}
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/camera-ga38f6daeb_640.png" alt="" id="logo">
+            <div>PHOTOGRAPHY</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Wallpaper</a></li>
+                <li><a href="#">Nature</a></li>
+            </ul>
+        </div>
+        
+        <div class="right">
+            <button class="btn">Call Us</button><button class="btn">Help </button><button class="btn">Feedback</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Free Photography Cheat Sheets for Fast Learning</h1>
+        <h3>Fill these form sheets are a fast and effective way to learn photography.</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name" >
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age" >
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your E-mail" >
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender" >
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number" >
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
